@@ -3,7 +3,7 @@
 # name: discourse-roblox-openid-connect
 # about: Add support for openid-connect as a login provider
 # version: 1.0
-# authors: David Taylor (Edited by Headless)
+# authors: David Taylor (Edited by AEW745)
 # url: https://github.com/Djboy08/discourse-roblox-openid-connect
 # transpile_js: true
 
