@@ -7,7 +7,7 @@
 ar:
   js:
     login:
-      rbxoidc:
+      Roblox:
         name: "OpenID Connect"
         title: "باستخدام OpenID Connect"
         message: "المصادقة باستخدام OpenID Connect"
