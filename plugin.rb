@@ -24,13 +24,13 @@ on(:before_session_destroy) do |data|
 
   oidc_record = data[:user]&.user_associated_accounts&.find_by(provider_name: "Roblox")
   if !oidc_record
-    authenticator.oidc_log "Logout: No rbxoidc user_associated_account record for user"
+    authenticator.oidc_log "Logout: No Roblox user_associated_account record for user"
     next
   end
 
   token = oidc_record.extra["id_token"]
   if !token
-    authenticator.oidc_log "Logout: No rbxoidc id_token in user_associated_account record"
+    authenticator.oidc_log "Logout: No Roblox id_token in user_associated_account record"
     next
   end
 
