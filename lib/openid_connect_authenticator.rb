@@ -74,9 +74,9 @@ class OpenIDConnectAuthenticator < Auth::ManagedAuthenticator
 
   def oidc_log(message, error: false)
     if error
-      Rails.logger.error("RBXOIDC Log: #{message}")
+      Rails.logger.error("Roblox Log: #{message}")
     elsif SiteSetting.openid_connect_rbx_verbose_logging
-      Rails.logger.warn("RBXOIDC Log: #{message}")
+      Rails.logger.warn("Roblox Log: #{message}")
     end
   end
 
