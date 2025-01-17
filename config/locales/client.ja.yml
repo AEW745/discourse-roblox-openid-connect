@@ -7,7 +7,7 @@
 ja:
   js:
     login:
-      rbxoidc:
+      Roblox:
         name: "OpenID Connect"
         title: "OpenID Connect"
         message: "OpenID Connect で認証"
