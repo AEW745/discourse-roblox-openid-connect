@@ -1,7 +1,7 @@
 {
   "name": "discourse-roblox-openid-connect",
   "version": "1.0.0",
-  "repository": "https://github.com/Djboy08/discourse-roblox-openid-connect",
+  "repository": "https://github.com/AEW745/discourse-roblox-openid-connect",
   "author": "Discourse",
   "license": "MIT",
   "devDependencies": {
