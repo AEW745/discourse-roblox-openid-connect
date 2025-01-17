@@ -8,7 +8,7 @@ describe OpenIDConnectAuthenticator do
   fab!(:user) { Fabricate(:user) }
   let(:hash) do
     OmniAuth::AuthHash.new(
-      provider: "rbxoidc",
+      provider: "Roblox",
       uid: "123456789",
       info: {
         name: "John Doe",
