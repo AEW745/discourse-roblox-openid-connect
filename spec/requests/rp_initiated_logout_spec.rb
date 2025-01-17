@@ -35,7 +35,7 @@ describe "RBXOIDC RP-Initiated Logout" do
 
   it "does nothing for a user with no token in their rbxoidc record" do
     sign_in(user)
-    UserAssociatedAccount.create!(provider_name: "rbxoidc", user: user, provider_uid: "myuid")
+    UserAssociatedAccount.create!(provider_name: "Roblox", user: user, provider_uid: "myuid")
     delete "/session/#{user.username}", xhr: true
     expect(response.status).to eq(200)
     expect(response.parsed_body["redirect_url"]).to eq("/")
@@ -45,7 +45,7 @@ describe "RBXOIDC RP-Initiated Logout" do
     before do
       sign_in(user)
       UserAssociatedAccount.create!(
-        provider_name: "rbxoidc",
+        provider_name: "Roblox",
         user: user,
         provider_uid: "myuid",
         extra: {
