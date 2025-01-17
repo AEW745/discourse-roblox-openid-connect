@@ -1,7 +1,7 @@
 en:
   js:
     login:
-      rbxoidc:
-        name: "RBX OpenID Connect"
-        title: "with RBX OpenID Connect"
-        message: "Authenticating with RBX OpenID Connect"
+      Roblox:
+        name: "Roblox OpenID Connect"
+        title: "with Roblox OpenID Connect"
+        message: "Authenticating with Roblox OpenID Connect"
