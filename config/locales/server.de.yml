@@ -6,7 +6,7 @@
 
 de:
   site_settings:
-    openid_connect_rbx_enabled: Aktiviere die OpenID-Connect-Authentifizierung. Passe den Text der Benutzeroberfläche <a href='%{base_path}/admin/customize/site_texts?q=js.login.rbxoidc'>hier</a> an
+    openid_connect_rbx_enabled: Aktiviere die OpenID-Connect-Authentifizierung. Passe den Text der Benutzeroberfläche <a href='%{base_path}/admin/customize/site_texts?q=js.login.Roblox'>hier</a> an
     openid_connect_rbx_discovery_document: "URL des OpenID-Connect-Discovery-Dokuments. Normalerweise zu finden unter „https://your.domain/.well-known/openid-configuration“"
     openid_connect_rbx_client_id: "OpenID-Connect-Client-ID"
     openid_connect_rbx_client_secret: "OpenID-Connect-Client-Geheimnis"
