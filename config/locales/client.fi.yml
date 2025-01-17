@@ -7,7 +7,7 @@
 fi:
   js:
     login:
-      rbxoidc:
+      Roblox:
         name: "OpenID Connect"
         title: "OpenID Connectilla"
         message: "Todennus OpenID Connectilla"
