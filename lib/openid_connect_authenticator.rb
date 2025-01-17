@@ -3,7 +3,7 @@
 # class OpenIDConnectAuthenticator < CustomAuth::OverridedManagedAuthenticator
 class OpenIDConnectAuthenticator < Auth::ManagedAuthenticator
   def name
-    "rbxoidc"
+    "Roblox"
   end
 
   def can_revoke?
