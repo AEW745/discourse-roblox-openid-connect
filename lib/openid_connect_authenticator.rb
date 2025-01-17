@@ -82,7 +82,7 @@ class OpenIDConnectAuthenticator < Auth::ManagedAuthenticator
 
   def register_middleware(omniauth)
     omniauth.provider :openid_connect_rbx,
-                      name: :rbxoidc,
+                      name: :Roblox,
                       error_handler:
                         lambda { |error, message|
                           handlers = SiteSetting.openid_connect_rbx_error_redirects.split("\n")
