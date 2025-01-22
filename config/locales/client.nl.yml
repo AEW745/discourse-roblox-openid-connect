@@ -8,6 +8,6 @@ nl:
   js:
     login:
       Roblox:
-        name: "OpenID Connect"
-        title: "met OpenID Connect"
-        message: "Verificatie met OpenID Connect"
+        name: "Roblox"
+        title: "met Roblox"
+        message: "Verificatie met Roblox"
