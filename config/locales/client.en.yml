@@ -2,6 +2,6 @@ en:
   js:
     login:
       Roblox:
-        name: "Roblox OpenID Connect"
-        title: "with Roblox OpenID Connect"
-        message: "Authenticating with Roblox OpenID Connect"
+        name: "Roblox"
+        title: "with Roblox"
+        message: "Authenticating with Roblox"
