@@ -8,6 +8,6 @@ fr:
   js:
     login:
       Roblox:
-        name: "OpenID Connect"
-        title: "avec OpenID Connect"
-        message: "Authentification avec OpenID Connect"
+        name: "Roblox"
+        title: "avec Roblox"
+        message: "Authentification avec Roblox"
