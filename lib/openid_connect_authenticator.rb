@@ -41,6 +41,14 @@ class OpenIDConnectAuthenticator < Auth::ManagedAuthenticator
     SiteSetting.openid_connect_rbx_match_by_email
   end
 
+  def always_update_user_name?
+    SiteSetting.openid_connect_rbx_overrides_name
+  end
+
+  def always_update_user_username?
+    SiteSetting.openid_connect_rbx_overrides_username
+  end
+
   def discovery_document
     document_url = SiteSetting.openid_connect_rbx_discovery_document.presence
     if !document_url
