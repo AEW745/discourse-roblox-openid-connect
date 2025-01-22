@@ -8,6 +8,6 @@ zh_CN:
   js:
     login:
       Roblox:
-        name: "OpenID Connect"
-        title: "使用 OpenID Connect"
-        message: "正在使用 OpenID Connect 进行身份验证"
+        name: "Roblox"
+        title: "使用 Roblox"
+        message: "正在使用 Roblox 进行身份验证"
