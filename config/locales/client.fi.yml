@@ -8,6 +8,6 @@ fi:
   js:
     login:
       Roblox:
-        name: "OpenID Connect"
-        title: "OpenID Connectilla"
-        message: "Todennus OpenID Connectilla"
+        name: "Roblox"
+        title: "Roblox"
+        message: "Todennus Roblox"
